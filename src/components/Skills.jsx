@@ -59,7 +59,7 @@ const Skills = () => {
             <img
               key={index}
               src={imgSrc}
-              className="w-[25%] max-md:w-[50%] h-auto max-h-16 object-contain"
+              className="w-[50%] h-auto max-h-16 object-contain"
             />
           )
         )}
