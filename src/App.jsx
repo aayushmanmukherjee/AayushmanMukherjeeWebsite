@@ -15,8 +15,8 @@ const App = () => {
 
   if(loading) {
     return (
-      <div className='h-screen w-screen flex justify-center items-center bg-amber-50'>
-        <h1 className='cursive text-3xl max-md:text-xl font-extrabold'>
+      <div className='h-screen w-screen flex justify-center items-center'>
+        <h1 className='cursive text-3xl max-md:text-xl font-extrabold text-red-500'>
           <Typewriter
                     words={["Aayushman Mukherjee"]}
                     typeSpeed={50}

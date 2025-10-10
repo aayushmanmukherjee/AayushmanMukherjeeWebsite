@@ -10,12 +10,11 @@ const Projects = () => {
       transition={{ duration: 0.2, ease: "easeOut" }}
       viewport={{ amount: 0.1 }}
     >
-      <div className="bg-teal-50 w-full min-h-[100vh] flex flex-col pt-10 max-md:pt-5">
-        <div className="text-6xl max-lg:text-3xl big max-md:text-2xl max-md:text-center">
-          PROJECTS I HAVE <br />
-          BUILT TILL NOW
+      <div className="bg-green-500 w-full min-h-[100vh] flex flex-col pt-10 max-md:pt-5">
+        <div className="text-6xl max-lg:text-3xl big max-md:text-2xl max-md:text-center ml-5">
+          MY PROJECTS
         </div>
-        <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 ">
+        <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
           <Card
             title="Rock Music Analysis"
             desc="Conducted an in-depth analysis of rock songs (1956-1999) using Python (Pandas, NumPy, Matplotlib, Seaborn) to un-

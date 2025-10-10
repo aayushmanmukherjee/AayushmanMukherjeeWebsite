@@ -23,7 +23,7 @@ const Skills = () => {
 
     useEffect(() => {
   controls.start({
-  y: ["50%", "-100%"],
+  y: ["15%", "-100%"],
   transition: {
     duration: 20,
     ease: "linear",
@@ -41,39 +41,28 @@ const Skills = () => {
           transition={{ duration: 0.2, ease: "easeOut" }}
           viewport={{ amount: 0.1}} 
         >
-    <div className='bg-amber-50 h-[100vh] w-full flex pt-10 max-md:pt-5'>
-      <div className='w-[70%] max-md:w-[80%] ml-5 max-md:ml-0'>
-         <h2 className="big text-5xl max-lg:text-3xl max-md:text-xl">TOOLS AND TECHNOLOGIES <br /> I KNOW</h2>
+    <div className='h-[100vh] w-full flex flex-col gap-3 py-10 max-md:py-5'>
+      <div className='w-full max-md:text-center ml-5'>
+         <h2 className="big text-6xl max-lg:text-3xl max-md:text-2xl">MY SKILLS</h2>
       </div>
-      <div className="w-[30%] max-md:w-[20%] mr-5 max-md:mr-0 overflow-hidden full" onMouseEnter={() => controls.stop()} onMouseLeave={() =>
-        controls.start({
-          y: ["50%", "-100%"],
-          transition: {
-            duration: 20,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "loop",     
-            repeatDelay: 0   
-          },
-        })
-      }>
-<motion.div className="flex flex-col" animate={controls}>
-        <img src={html1} className="mb-2 w-56 h-24 max-md:h-16 max-md:w-32" />
-        <img src={css} className="mb-2 w-56 h-24 max-md:h-16 max-md:w-32" />
-        <img src={js} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={tailwind} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={react} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={node} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={express} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={mongodb} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={python} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={numpy} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={pandas} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={matplotlib} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={seaborn} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={mysql} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={tableau} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
-        <img src={git} className="mb-2 h-24 w-56 max-md:h-16 max-md:w-32" />
+      <div className="w-full overflow-hidden full">
+<motion.div className="flex flex-col items-center justify-center" animate={controls}>
+        <img src={html1} className="mb-2 max-md:w-[60%] w-[30%] h-30 max-md:h-16" />
+        <img src={css} className="mb-2 max-md:w-[60%] w-[30%] h-30 max-md:h-16" />
+        <img src={js} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={tailwind} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={react} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={node} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={express} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={mongodb} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={python} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={numpy} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={pandas} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={matplotlib} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={seaborn} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={mysql} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={tableau} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
+        <img src={git} className="mb-2 h-30 max-md:w-[60%] w-[30%] max-md:h-16" />
       </motion.div>
       </div>
     </div>

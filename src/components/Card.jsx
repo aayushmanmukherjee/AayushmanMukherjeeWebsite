@@ -12,9 +12,9 @@ const Card = ({title, desc, date, link, domain}) => {
   animate={{ rotateY: show ? 360 : 0 }} 
   transition={{ duration: 1, ease: "easeInOut" }} 
 >
-    <div className='flex flex-col rounded-lg shadow py-2 px-1 hover:scale-105 transition-all duration-200 bg-green-600 w-[300px] h-[300px]'>
+    <div className='flex flex-col rounded-lg shadow py-2 px-1 hover:scale-105 transition-all duration-200 bg-white w-[300px] h-[300px]'>
         <div className='flex justify-end'>
-      <button onClick={handleShow} className='rounded-full cursor-pointer'>
+      <button onClick={handleShow} className='rounded-full cursor-pointer hover:bg-green-500 transition-all duration-200'>
         {show ? <XCircle size={40} className='rounded-full'/> : <PlusCircle size={40} className=' rounded-full'/> }
         </button>
       </div>
@@ -24,9 +24,9 @@ const Card = ({title, desc, date, link, domain}) => {
       ) : (
          <div>
           <h3 className="poppins font-extrabold text-2xl">{title}</h3>
-          <p className="poppins font-bold mt-2 text-teal-50">Date: {date}</p>
+          <p className="poppins font-bold mt-2 text-gray-500">Date: {date}</p>
           <p className="poppins font-bold mt-2">Domain: {domain}</p>
-          <button className='border rounded-full w-10 mt-5'><a href={link} target='_blank'><Github size={40} className='rounded-full'/></a></button>
+          <button className='border-2 rounded-full w-30 mt-5 hover:bg-green-500 transition-all duration-200'><a href={link} target='_blank'>Project link</a></button>
         </div>
       )}
     </div>
