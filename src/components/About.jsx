@@ -30,7 +30,7 @@ const About = () => {
             I love developing websites and exploring data, I have hands-on experience in <span className="font-bold ">MERN full-stack development</span> and <span className="font-bold ">Python-based data analysis.</span> <br />
             <p className="mt-5 max-md:mt-2">Other than coding I love listening to music, watching movies, playing video games, watching football and cricket and I also love photography. <br /> I am also always curious about new consumer tech and love discussing about them. <br /></p>
         </p>
-        <button className="py-1 mt-10 rounded-full border bg-white text-black  hover:bg-green-500 w-40"><a href="https://drive.google.com/file/d/1Xav1-Rh82ET33jxw1uy9Ra8VxBNtdXCW/view?usp=sharing" target="_blank" className="flex justify-center items-center poppins font-bold">My resume <File/></a></button>
+        <button className="py-1 mt-10 rounded-full border bg-white text-black  hover:bg-green-500 w-40"><a href="https://drive.google.com/file/d/1OcZD39HGMGbTZg3dAO7b8OAB75Vn0KyZ/view?usp=sharing" target="_blank" className="flex justify-center items-center poppins font-bold">My resume <File/></a></button>
       </div>
     </div>
     </motion.section>
