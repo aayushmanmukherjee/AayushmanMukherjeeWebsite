@@ -16,35 +16,38 @@ const Projects = () => {
         </div>
         <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
           <Card
+            title="Unemployment Rate Analysis in India"
+            desc="Performed data-driven analysis of unemployment trends across Indian states using Python libraries to uncover re-
+gional disparities, COVID-19 impact, and long-term employment patterns through insightful visualizations."
+            date="October, 2025"
+            link="https://github.com/aayushmanmukherjee/UnemplymentIndiaStates"
+            domain="Exploratory Data Analysis"
+          />
+          <Card
             title="Rock Music Analysis"
-            desc="Conducted an in-depth analysis of rock songs (1956-1999) using Python (Pandas, NumPy, Matplotlib, Seaborn) to un-
-cover trends in popularity, song features, and artist influence, with clear visualizations and actionable insights."
+            desc="Conducted data-driven analysis of rock songs using Python libraries to identify trends in popularity, song features,
+and artist influence through clear, insightful visualizations."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/RockMusicDataAnalysis"
             domain="Exploratory Data Analysis"
           />
           <Card
             title="Community - Social Media Web App"
-            desc="Built a social platform for family and close friends to connect using MERN stack, featuring WhatsApp-like group and an Instagram-style feed, with secure authentication, interactions, and seamless media sharing to
-enhance user engagement and bonding."
+            desc="Built a MERN-based social platform enabling secure authentication, group chats, and media sharing, improving user
+connectivity and engagement through real-time communication and interactive features."
             domain="MERN Fullstack Development"
             link="https://github.com/aayushmanmukherjee/Community"
             date="August, 2025"
           />
           <Card
             title="Workday - Task Management Web App"
-            desc="Built a MERN-based productivity app implementing the Eisenhower Matrix for day-to-day task prioritization with secure authentication, and a responsive UI"
+            desc="Built a MERN-based productivity app using the Eisenhower Matrix to help users prioritize daily tasks effectively,
+featuring secure authentication and a responsive, user-friendly interface."
             date="September, 2025"
             domain="MERN Fullstack Development"
             link="https://github.com/aayushmanmukherjee/Workday"
           />
-          <Card
-            title="MovieFinder"
-            desc="Built a MERN-based movie finding website, where users can search movies, actors and directors. They can then read about them and also save their favourite or next-watch movies in a personal list."
-            link="https://github.com/aayushmanmukherjee/film-finder"
-            date="July, 2025"
-            domain="MERN Fullstack Development"
-          />
+         
         </div>
       </div>
     </motion.section>
