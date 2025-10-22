@@ -45,7 +45,7 @@ const About = () => {
 
     <button className="py-1 mt-10 rounded-full border bg-white text-black hover:bg-green-500 w-40 transition-all duration-200">
       <a
-        href="https://drive.google.com/file/d/1OcZD39HGMGbTZg3dAO7b8OAB75Vn0KyZ/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Pn1PIODaYJ5FFqX5GDFSLB41wq2gpQvc/view?usp=sharing"
         target="_blank"
         className="flex justify-center items-center poppins font-bold"
       >
