@@ -16,25 +16,29 @@ const Projects = () => {
         </div>
         <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
           <Card
+            title="Restaurant Market Analysis"
+            desc="Analyzed restaurant data using SQL and Pandas to compute KPIs like average rating, median cost, and cuisine popularity.Built an interactive Tableau dashboard to identify top localities, pricing trends, and market gaps for new restaurant entry."
+            date="October, 2025"
+            link="https://github.com/aayushmanmukherjee/RestaurantAnalysis"
+            domain="Exploratory Data Analysis (SQL+Tableau)"
+          />
+          <Card
             title="Unemployment Rate Analysis in India"
-            desc="Performed data-driven analysis of unemployment trends across Indian states using Python libraries to uncover re-
-gional disparities, COVID-19 impact, and long-term employment patterns through insightful visualizations."
+            desc="Analyzed unemployment rate data across Indian states using Python (Pandas, NumPy, Matplotlib, Seaborn) to study regional disparities, COVID-19 impact, and long-term unemployment trends. Created visual dashboards and trend analyses to highlight state-wise variations and identify key factors influencing post-pandemic recovery"
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/UnemplymentIndiaStates"
             domain="Exploratory Data Analysis"
           />
           <Card
             title="Rock Music Analysis"
-            desc="Conducted data-driven analysis of rock songs using Python libraries to identify trends in popularity, song features,
-and artist influence through clear, insightful visualizations."
+            desc="Conducted data-driven analysis of rock songs using Python libraries to identify trends in popularity, song features, and artist influence through clear, insightful visualizations."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/RockMusicDataAnalysis"
             domain="Exploratory Data Analysis"
           />
           <Card
             title="Community - Social Media Web App"
-            desc="Built a MERN-based social platform enabling secure authentication, group chats, and media sharing, improving user
-connectivity and engagement through real-time communication and interactive features."
+            desc="Developed a full-stack social platform using the MERN stack (MongoDB, Express.js, React, Node.js) with JWT authentication and real-time group chat functionality. Implemented media sharing, and responsive UI to enhance user engagement and ensure secure, scalable performance."
             domain="MERN Fullstack Development"
             link="https://github.com/aayushmanmukherjee/Community"
             date="August, 2025"
