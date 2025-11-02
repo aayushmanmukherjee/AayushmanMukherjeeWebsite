@@ -16,11 +16,19 @@ const Projects = () => {
         </div>
         <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
           <Card
+            title="IMDb Top 1000 Movies Analysis"
+            desc="Analyzed IMDb’s top 1000 movies using SQL to uncover trends in ratings, genres, and directors across decades. Built an interactive Tableau dashboard highlighting audience vs. critic preferences, genre evolution, and top performing directors."
+            date="November, 2025"
+            link="https://github.com/aayushmanmukherjee/IMDB_Top_1000_Movies_Analysis"
+            domain="SQL+Tableau"
+          />
+        <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
+          <Card
             title="Restaurant Market Analysis"
             desc="Analyzed restaurant data using SQL and Pandas to compute KPIs like average rating, median cost, and cuisine popularity.Built an interactive Tableau dashboard to identify top localities, pricing trends, and market gaps for new restaurant entry."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/RestaurantAnalysis"
-            domain="Exploratory Data Analysis (SQL+Tableau)"
+            domain="SQL+Tableau"
           />
           <Card
             title="Unemployment Rate Analysis in India"
