@@ -22,17 +22,16 @@ const Projects = () => {
             link="https://github.com/aayushmanmukherjee/IMDB_Top_1000_Movies_Analysis"
             domain="SQL+Tableau"
           />
-        <div className="mt-10 max-md:mt-5 flex flex-wrap justify-center gap-5 pb-5">
           <Card
             title="Restaurant Market Analysis"
-            desc="Analyzed restaurant data using SQL and Pandas to compute KPIs like average rating, median cost, and cuisine popularity.Built an interactive Tableau dashboard to identify top localities, pricing trends, and market gaps for new restaurant entry."
+            desc="Analyzed restaurant data using SQL and Pandas to compute KPIs like average rating, median cost, and cuisine popularity. Built an interactive Tableau dashboard to identify top localities, pricing trends, and market gaps for new restaurant entry."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/RestaurantAnalysis"
             domain="SQL+Tableau"
           />
           <Card
             title="Unemployment Rate Analysis in India"
-            desc="Analyzed unemployment rate data across Indian states using Python (Pandas, NumPy, Matplotlib, Seaborn) to study regional disparities, COVID-19 impact, and long-term unemployment trends. Created visual dashboards and trend analyses to highlight state-wise variations and identify key factors influencing post-pandemic recovery"
+            desc="Analyzed unemployment rate data across Indian states using Python (Pandas, NumPy, Matplotlib, Seaborn) to study regional disparities, COVID-19 impact, and long-term unemployment trends. Created visual dashboards and trend analyses to highlight state-wise variations and identify key factors influencing post-pandemic recovery."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/UnemplymentIndiaStates"
             domain="Exploratory Data Analysis"
@@ -53,14 +52,12 @@ const Projects = () => {
           />
           <Card
             title="Workday - Task Management Web App"
-            desc="Built a MERN-based productivity app using the Eisenhower Matrix to help users prioritize daily tasks effectively,
-featuring secure authentication and a responsive, user-friendly interface."
+            desc="Built a MERN-based productivity app using the Eisenhower Matrix to help users prioritize daily tasks effectively, featuring secure authentication and a responsive, user-friendly interface."
             date="September, 2025"
             domain="MERN Fullstack Development"
             link="https://github.com/aayushmanmukherjee/Workday"
           />
-         
-        </div>
+        </div> {/* ✅ properly closed this div */}
       </div>
     </motion.section>
   );
