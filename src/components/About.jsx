@@ -30,7 +30,6 @@ const About = () => {
         </p>
 
         <div className="poppins text-xl max-md:text-sm max-md:text-center mt-10 max-md:mt-5 text-white px-2">
-<<<<<<< HEAD
           My name is Aayushman Mukherjee. <br />
           I love developing websites and exploring data — I have hands-on experience in
           <span className="font-bold"> MERN full-stack development </span>and
@@ -45,26 +44,6 @@ const About = () => {
         </div>
 
         <button className="py-1 mt-10 rounded-full border bg-white text-black hover:bg-green-500 w-40 transition-all duration-200">
-=======
-          My name is Aayushman Mukherjee. <br />I love developing websites and
-          exploring data — I have hands-on experience in
-          <span className="font-bold"> MERN full-stack development </span>and
-          <span className="font-bold"> Data analysis</span>.
-          <br />
-          I am currently in my final year of engineering from Vellore Institute
-          of Technology, Vellore, studying Electrical and Electronics
-          Engineering.
-          <br />
-          <div className="mt-5 max-md:mt-2">
-            Other than coding, I love listening to music, watching movies,
-            playing video games, and following football and cricket. <br />
-            I'm also passionate about photography and new consumer tech — always
-            curious and excited to discuss the latest trends.
-          </div>
-        </div>
-
-                <button className="py-1 mt-10 rounded-full border bg-white text-black hover:bg-green-500 w-40 transition-all duration-200">
->>>>>>> 3510fd4 (layout changes)
           <a
             href="https://drive.google.com/file/d/1bDqtnUN4xHYYdUtleR1uaujh24rtjBJm/view?usp=sharing"
             target="_blank"
