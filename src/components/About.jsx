@@ -32,10 +32,11 @@ const About = () => {
 
     <div className="poppins text-xl max-md:text-sm max-md:text-center mt-10 max-md:mt-5 text-white px-2">
       My name is Aayushman Mukherjee. <br />
-      I am a final-year Electrical and Electronics Engineering student from Vellore Institute of Technology, Vellore. <br />
-      I love developing websites and exploring data — I have hands-on experience in 
+      I love developing websites and exploring data — I have hands on experience in 
       <span className="font-bold"> MERN full-stack development</span> and 
-      <span className="font-bold"> Python-based data analysis.</span>
+      <span className="font-bold"> Data analysis.</span>
+      <br />
+      I am currently in my final year of engineering from Vellore Institute of Technology, Vellore studying Electrical and Electronics Engineering.
       <br />
       <div className="mt-5 max-md:mt-2">
         Other than coding, I love listening to music, watching movies, playing video games, and following football and cricket. <br />
@@ -45,7 +46,7 @@ const About = () => {
 
     <button className="py-1 mt-10 rounded-full border bg-white text-black hover:bg-green-500 w-40 transition-all duration-200">
       <a
-        href="https://drive.google.com/file/d/1bvvWjeJPg5Sb232EUjAca0yak_pF6TI8/view?usp=sharing"
+        href="https://drive.google.com/file/d/1bDqtnUN4xHYYdUtleR1uaujh24rtjBJm/view?usp=sharing"
         target="_blank"
         className="flex justify-center items-center poppins font-bold"
       >
