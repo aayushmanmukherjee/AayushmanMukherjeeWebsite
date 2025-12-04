@@ -37,6 +37,12 @@ const Skills = () => {
   }, [controls]);
 
   return (
+      <motion.section
+      initial={{ opacity: 0.8, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.2, ease: "easeOut" }}
+      viewport={{ amount: 0.1 }}
+    >
    
   <div className="min-h-screen w-full flex flex-col gap-6 py-10 max-md:py-5">
     
@@ -57,7 +63,7 @@ const Skills = () => {
         )}
     </div>
   </div>
-
+ </motion.section>
   )
 }
 
