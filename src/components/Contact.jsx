@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="w-[60%] max-md:w-full ml-50 max-md:ml-0"> 
         <ul className='flex sm:flex-col gap-5 max-md:gap-2 max-md:justify-center max-md:items-center max-md:flex-wrap'>
           <li>
-            <a href='https://drive.google.com/file/d/1bDqtnUN4xHYYdUtleR1uaujh24rtjBJm/view?usp=sharing' target='_blank' className='flex border rounded-full py-1 px-2 w-[50%] max-md:w-[100px] justify-center items-center gap-2 cursor-pointer bg-white hover:bg-green-500 transition-all duration-200'>
+            <a href='https://drive.google.com/file/d/1dT3caD-WPPRio8MY5CVjHfnZ_1mku8mx/view?usp=sharing' target='_blank' className='flex border rounded-full py-1 px-2 w-[50%] max-md:w-[100px] justify-center items-center gap-2 cursor-pointer bg-white hover:bg-green-500 transition-all duration-200'>
               <span className='poppins text-xl max-md:text-[10px] font-bold'>Resume</span><File/>
             </a>
           </li>
