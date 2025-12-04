@@ -31,9 +31,8 @@ const About = () => {
 
         <div className="poppins text-xl max-md:text-sm max-md:text-center mt-10 max-md:mt-5 text-white px-2">
           My name is Aayushman Mukherjee. <br />
-          I love developing websites and exploring data — I have hands-on experience in
-          <span className="font-bold"> MERN full-stack development </span>and
-          <span className="font-bold"> Data analysis</span>.
+          I have a strong focus on Machine Learning and applied model development. Interested in building and deploying models that learn from real world data, automate decision making, and solve practical problems across domains. </br>
+        Also experienced in Python based data analysis, SQL, and MERN full stack development.
           <br />
           I am currently in my final year of engineering from Vellore Institute of Technology, Vellore, studying Electrical and Electronics Engineering.
           <br />
