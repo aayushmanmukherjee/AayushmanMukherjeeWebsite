@@ -16,6 +16,8 @@ import react from '../assets/react.png'
 import seaborn from '../assets/seaborn.svg'
 import tableau from '../assets/tableau.png'
 import tailwind from '../assets/tailwind.png'
+import scikit from '../assets/scikit.png'
+import tensorflow from '../assets/tensorflow.png'
 
 
 const Skills = () => {
@@ -35,38 +37,27 @@ const Skills = () => {
   }, [controls]);
 
   return (
-    <motion.section
-  initial={{ opacity: 0.8, scale: 0.95 }}
-  whileInView={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.3, ease: "easeOut" }}
-  viewport={{ amount: 0.1 }}
-  className="overflow-hidden"
->
-  <div className="h-screen w-full flex flex-col gap-6 py-10 max-md:py-5">
+   
+  <div className="min-h-screen w-full flex flex-col gap-6 py-10 max-md:py-5">
     
     <div className="w-full text-left max-md:text-center px-5">
       <h2 className="big text-6xl max-lg:text-3xl max-md:text-2xl">MY SKILLS</h2>
     </div>
 
-    <div className="relative w-full h-full overflow-hidden flex justify-center">
-      <motion.div
-        className="flex flex-col items-center justify-start space-y-3"
-        animate={controls}
-        style={{ transformOrigin: "top" }}
-      >
-        {[html1, css, js, tailwind, react, node, express, mongodb, python, numpy, pandas, matplotlib, seaborn, mysql, tableau, git].map(
+    <div className="relative w-full h-full flex flex-wrap justify-center gap-5">
+      
+        {[python, scikit, tensorflow, mysql, numpy, pandas, matplotlib, seaborn, tableau, git, html1, css, js, tailwind, react, node, express, mongodb].map(
           (imgSrc, index) => (
             <img
               key={index}
               src={imgSrc}
-              className="w-[50%] h-auto max-h-16 object-contain"
+              className="w-auto min-w-24 h-auto max-h-24 object-contain hover:scale-110 hover:cursor-pointer transition-all duration-200"
             />
           )
         )}
-      </motion.div>
     </div>
   </div>
-</motion.section>
+
   )
 }
 
