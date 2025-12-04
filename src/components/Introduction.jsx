@@ -23,7 +23,7 @@ const Introduction = () => {
 
       <p className="text-5xl max-lg:text-2xl max-md:text-xl poppins mt-10 max-md:mt-5">
         <Typewriter
-          words={["Data Analyst", "Full Stack MERN Developer"]}
+          words={["Machine Learning, Software Engineering, Data Analysis"]}
           loop
           cursor
           cursorStyle="_"
