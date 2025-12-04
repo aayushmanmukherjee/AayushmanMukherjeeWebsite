@@ -30,17 +30,17 @@ const Projects = () => {
             domain="SQL+Tableau"
           />
           <Card
+            title="E-Commerce Sales Analysis"
+            desc="Analyzed sales, profit, and order data using Python, Pandas, and visualization tools to compute KPIs such as total sales, average profit, profit margin, and top performing product categories. Built visual insights and comparative analyses to identify high and low performing states and cities, evaluate category wise performance, and highlight regional disparities to support datacdriven business decisions."
+            date="November, 2025"
+            link="https://github.com/aayushmanmukherjee/Sales_Data_Analysis"
+            domain="Exploratory Data Analysis"
+          />
+          <Card
             title="Unemployment Rate Analysis in India"
             desc="Analyzed unemployment rate data across Indian states using Python (Pandas, NumPy, Matplotlib, Seaborn) to study regional disparities, COVID-19 impact, and long-term unemployment trends. Created visual dashboards and trend analyses to highlight state-wise variations and identify key factors influencing post-pandemic recovery."
             date="October, 2025"
             link="https://github.com/aayushmanmukherjee/UnemplymentIndiaStates"
-            domain="Exploratory Data Analysis"
-          />
-          <Card
-            title="Rock Music Analysis"
-            desc="Conducted data-driven analysis of rock songs using Python libraries to identify trends in popularity, song features, and artist influence through clear, insightful visualizations."
-            date="October, 2025"
-            link="https://github.com/aayushmanmukherjee/RockMusicDataAnalysis"
             domain="Exploratory Data Analysis"
           />
           <Card
@@ -57,10 +57,10 @@ const Projects = () => {
             domain="MERN Fullstack Development"
             link="https://github.com/aayushmanmukherjee/Workday"
           />
-        </div> {/* ✅ properly closed this div */}
+        </div> 
       </div>
     </motion.section>
-  );
-};
+  )
+}
 
 export default Projects;
